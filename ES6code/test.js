@@ -1,14 +1,18 @@
-const arr = [10,12,15,21];
+let a = 3;
+let b = 0;
 
 
-for (let i = 0;i<arr.length;i++){
+for (let i = 0;i<=a;i++){
 
+    b = b+i;
 
+    
 
-    setTimeout(()=>{
+   
+   
 
-            console.log('index' + i + ',element' + arr[i]);
+     
+   
 
-
-    },3000);
+    console.log(b);
 }
